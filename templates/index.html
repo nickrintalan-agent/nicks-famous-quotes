@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuoteVault — 100 Well-Known Quotes</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background-decor"></div>
+  
+  <header class="app-header">
+    <div class="header-container">
+      <div class="logo">
+        <span class="logo-icon">❝</span>
+        <h1>QuoteVault</h1>
+      </div>
+      <p class="tagline">Explore timeless wisdom from 100 well-known quotes</p>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <!-- HERO RANDOM QUOTE DISPLAY -->
+    <section class="hero-section">
+      <div class="quote-card" id="quoteCard">
+        <div class="card-top">
+          <span class="category-pill" id="quoteCategory">Inspiration</span>
+          <button class="btn-icon" id="copyBtn" title="Copy to clipboard" aria-label="Copy Quote">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span class="copy-tooltip" id="copyTooltip">Copied!</span>
+          </button>
+        </div>
+
+        <blockquote class="quote-content">
+          <p id="quoteText">Loading quote of the day...</p>
+        </blockquote>
+
+        <div class="card-bottom">
+          <cite class="quote-author" id="quoteAuthor">— Author</cite>
+          <div class="card-actions">
+            <button class="btn-primary" id="newQuoteBtn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="23 4 23 10 17 10"></polyline>
+                <polyline points="1 20 1 14 7 14"></polyline>
+                <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+              </svg>
+              <span>New Quote</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="shortcut-hint">Tip: Press <kbd>Space</kbd> or <kbd>R</kbd> for a new quote</div>
+    </section>
+
+    <!-- SEARCH & FILTER SECTION -->
+    <section class="search-section">
+      <div class="controls-panel">
+        <div class="search-box">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input 
+            type="text" 
+            id="searchInput" 
+            placeholder="Search by author (e.g. Einstein, Jobs, Socrates) or quote keyword..." 
+            autocomplete="off"
+          />
+          <button class="clear-btn" id="clearSearchBtn" aria-label="Clear Search" style="display: none;">&times;</button>
+        </div>
+
+        <div class="filter-group">
+          <label for="categoryFilter" class="filter-label">Category:</label>
+          <select id="categoryFilter" class="select-dropdown">
+            <option value="all">All Categories (100)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- RESULTS SUMMARY -->
+      <div class="results-header" id="resultsHeader">
+        <h2 id="resultsTitle">All Quotes</h2>
+        <span class="results-badge" id="resultsCount">100 quotes</span>
+      </div>
+
+      <!-- QUOTES GRID / LIST -->
+      <div class="quotes-grid" id="quotesGrid">
+        <!-- Rendered by Vanilla JS -->
+      </div>
+      
+      <!-- EMPTY STATE -->
+      <div class="empty-state" id="emptyState" style="display: none;">
+        <span class="empty-icon">🔍</span>
+        <h3>No matching quotes found</h3>
+        <p>Try searching for a different author name or choose another category.</p>
+        <button class="btn-secondary" id="resetFiltersBtn">Reset Filters</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p>Powered by Python Flask & Vanilla JavaScript • 100 Quotes Collection</p>
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

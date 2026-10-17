@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "quote": "The unexamined life is not worth living.",
+    "author": "Socrates",
+    "category": "Philosophy"
+  },
+  {
+    "id": 2,
+    "quote": "I think, therefore I am.",
+    "author": "Ren\u00e9 Descartes",
+    "category": "Philosophy"
+  },
+  {
+    "id": 3,
+    "quote": "He who has a why to live can bear almost any how.",
+    "author": "Friedrich Nietzsche",
+    "category": "Philosophy"
+  },
+  {
+    "id": 4,
+    "quote": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
+    "author": "Jean-Paul Sartre",
+    "category": "Philosophy"
+  },
+  {
+    "id": 5,
+    "quote": "Happiness is not an ideal of reason, but of imagination.",
+    "author": "Immanuel Kant",
+    "category": "Philosophy"
+  },
+  {
+    "id": 6,
+    "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "author": "Aristotle",
+    "category": "Philosophy"
+  },
+  {
+    "id": 7,
+    "quote": "The only thing I know is that I know nothing.",
+    "author": "Socrates",
+    "category": "Philosophy"
+  },
+  {
+    "id": 8,
+    "quote": "To be is to be perceived.",
+    "author": "George Berkeley",
+    "category": "Philosophy"
+  },
+  {
+    "id": 9,
+    "quote": "No man ever steps in the same river twice, for it is not the same river and he is not the same man.",
+    "author": "Heraclitus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 10,
+    "quote": "Life must be understood backward. But it must be lived forward.",
+    "author": "S\u00f8ren Kierkegaard",
+    "category": "Philosophy"
+  },
+  {
+    "id": 11,
+    "quote": "Liberty consists in doing what one desires.",
+    "author": "John Stuart Mill",
+    "category": "Philosophy"
+  },
+  {
+    "id": 12,
+    "quote": "Wise men speak because they have something to say; fools because they have to say something.",
+    "author": "Plato",
+    "category": "Philosophy"
+  },
+  {
+    "id": 13,
+    "quote": "You have power over your mind - not outside events. Realize this, and you will find strength.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 14,
+    "quote": "Waste no more time arguing what a good man should be. Be one.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 15,
+    "quote": "It is not death that a man should fear, but he should fear never beginning to live.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 16,
+    "quote": "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+    "author": "Albert Einstein",
+    "category": "Science"
+  },
+  {
+    "id": 17,
+    "quote": "If I have seen further it is by standing on the shoulders of Giants.",
+    "author": "Isaac Newton",
+    "category": "Science"
+  },
+  {
+    "id": 18,
+    "quote": "Somewhere, something incredible is waiting to be known.",
+    "author": "Carl Sagan",
+    "category": "Science"
+  },
+  {
+    "id": 19,
+    "quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+    "author": "Marie Curie",
+    "category": "Science"
+  },
+  {
+    "id": 20,
+    "quote": "Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist.",
+    "author": "Stephen Hawking",
+    "category": "Science"
+  },
+  {
+    "id": 21,
+    "quote": "The good thing about science is that it is true whether or not you believe in it.",
+    "author": "Neil deGrasse Tyson",
+    "category": "Science"
+  },
+  {
+    "id": 22,
+    "quote": "Science is a way of thinking much more than it is a body of knowledge.",
+    "author": "Carl Sagan",
+    "category": "Science"
+  },
+  {
+    "id": 23,
+    "quote": "Two things are infinite: the universe and human stupidity; and I am not sure about the universe.",
+    "author": "Albert Einstein",
+    "category": "Science"
+  },
+  {
+    "id": 24,
+    "quote": "Equipped with his five senses, man explores the universe around him and calls the adventure Science.",
+    "author": "Edwin Powell Hubble",
+    "category": "Science"
+  },
+  {
+    "id": 25,
+    "quote": "In questions of science, the authority of a thousand is not worth the humble reasoning of a single individual.",
+    "author": "Galileo Galilei",
+    "category": "Science"
+  },
+  {
+    "id": 26,
+    "quote": "The most beautiful experience we can have is the mysterious. It is the fundamental emotion that stands at the cradle of true art and true science.",
+    "author": "Albert Einstein",
+    "category": "Science"
+  },
+  {
+    "id": 27,
+    "quote": "What we know is a drop, what we do not know is an ocean.",
+    "author": "Isaac Newton",
+    "category": "Science"
+  },
+  {
+    "id": 28,
+    "quote": "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
+    "author": "Stephen Hawking",
+    "category": "Science"
+  },
+  {
+    "id": 29,
+    "quote": "I am among those who think that science has great beauty.",
+    "author": "Marie Curie",
+    "category": "Science"
+  },
+  {
+    "id": 30,
+    "quote": "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change.",
+    "author": "Charles Darwin",
+    "category": "Science"
+  },
+  {
+    "id": 31,
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Inspiration"
+  },
+  {
+    "id": 32,
+    "quote": "It always seems impossible until it is done.",
+    "author": "Nelson Mandela",
+    "category": "Inspiration"
+  },
+  {
+    "id": 33,
+    "quote": "Believe you can and you are halfway there.",
+    "author": "Theodore Roosevelt",
+    "category": "Inspiration"
+  },
+  {
+    "id": 34,
+    "quote": "In the middle of every difficulty lies opportunity.",
+    "author": "Albert Einstein",
+    "category": "Inspiration"
+  },
+  {
+    "id": 35,
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "category": "Inspiration"
+  },
+  {
+    "id": 36,
+    "quote": "Do what you can, with what you have, where you are.",
+    "author": "Theodore Roosevelt",
+    "category": "Inspiration"
+  },
+  {
+    "id": 37,
+    "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "category": "Inspiration"
+  },
+  {
+    "id": 38,
+    "quote": "Act as if what you do makes a difference. It does.",
+    "author": "William James",
+    "category": "Inspiration"
+  },
+  {
+    "id": 39,
+    "quote": "Never bend your head. Always hold it high. Look the world straight in the eye.",
+    "author": "Helen Keller",
+    "category": "Inspiration"
+  },
+  {
+    "id": 40,
+    "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Inspiration"
+  },
+  {
+    "id": 41,
+    "quote": "Keep your face always toward the sunshine\u2014and shadows will fall behind you.",
+    "author": "Walt Whitman",
+    "category": "Inspiration"
+  },
+  {
+    "id": 42,
+    "quote": "You do not find the happy life. You make it.",
+    "author": "Camilla Eyring Kimball",
+    "category": "Inspiration"
+  },
+  {
+    "id": 43,
+    "quote": "Start where you are. Use what you have. Do what you can.",
+    "author": "Arthur Ashe",
+    "category": "Inspiration"
+  },
+  {
+    "id": 44,
+    "quote": "Everything you have ever wanted is on the other side of fear.",
+    "author": "George Addair",
+    "category": "Inspiration"
+  },
+  {
+    "id": 45,
+    "quote": "Turn your wounds into wisdom.",
+    "author": "Oprah Winfrey",
+    "category": "Inspiration"
+  },
+  {
+    "id": 46,
+    "quote": "There is no friend as loyal as a book.",
+    "author": "Ernest Hemingway",
+    "category": "Literature"
+  },
+  {
+    "id": 47,
+    "quote": "Not all those who wander are lost.",
+    "author": "J.R.R. Tolkien",
+    "category": "Literature"
+  },
+  {
+    "id": 48,
+    "quote": "All that is gold does not glitter, not all those who wander are lost.",
+    "author": "J.R.R. Tolkien",
+    "category": "Literature"
+  },
+  {
+    "id": 49,
+    "quote": "It is our choices, Harry, that show what we truly are, far more than our abilities.",
+    "author": "J.K. Rowling",
+    "category": "Literature"
+  },
+  {
+    "id": 50,
+    "quote": "There is some good in this world, and it is worth fighting for.",
+    "author": "J.R.R. Tolkien",
+    "category": "Literature"
+  },
+  {
+    "id": 51,
+    "quote": "The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.",
+    "author": "Jane Austen",
+    "category": "Literature"
+  },
+  {
+    "id": 52,
+    "quote": "Words are, in my not-so-humble opinion, our most inexhaustible source of magic.",
+    "author": "J.K. Rowling",
+    "category": "Literature"
+  },
+  {
+    "id": 53,
+    "quote": "We read to know we are not alone.",
+    "author": "C.S. Lewis",
+    "category": "Literature"
+  },
+  {
+    "id": 54,
+    "quote": "A reader lives a thousand lives before he dies. The man who never reads lives only one.",
+    "author": "George R.R. Martin",
+    "category": "Literature"
+  },
+  {
+    "id": 55,
+    "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Literature"
+  },
+  {
+    "id": 56,
+    "quote": "Life is what happens to us while we are making other plans.",
+    "author": "Allen Saunders",
+    "category": "Literature"
+  },
+  {
+    "id": 57,
+    "quote": "So we beat on, boats against the current, borne back ceaselessly into the past.",
+    "author": "F. Scott Fitzgerald",
+    "category": "Literature"
+  },
+  {
+    "id": 58,
+    "quote": "To thine own self be true, and it must follow, as the night the day, thou canst not then be false to any man.",
+    "author": "William Shakespeare",
+    "category": "Literature"
+  },
+  {
+    "id": 59,
+    "quote": "All the world is a stage, and all the men and women merely players.",
+    "author": "William Shakespeare",
+    "category": "Literature"
+  },
+  {
+    "id": 60,
+    "quote": "The only way out of the labyrinth of suffering is to forgive.",
+    "author": "John Green",
+    "category": "Literature"
+  },
+  {
+    "id": 61,
+    "quote": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
+    "author": "Martin Luther King Jr.",
+    "category": "Leadership"
+  },
+  {
+    "id": 62,
+    "quote": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
+    "author": "Martin Luther King Jr.",
+    "category": "Leadership"
+  },
+  {
+    "id": 63,
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela",
+    "category": "Leadership"
+  },
+  {
+    "id": 64,
+    "quote": "A leader is a dealer in hope.",
+    "author": "Napoleon Bonaparte",
+    "category": "Leadership"
+  },
+  {
+    "id": 65,
+    "quote": "Nearly all men can stand adversity, but if you want to test a man\u2019s character, give him power.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 66,
+    "quote": "I have not failed. I\u2019ve just found 10,000 ways that won\u2019t work.",
+    "author": "Thomas Edison",
+    "category": "Leadership"
+  },
+  {
+    "id": 67,
+    "quote": "Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
+    "author": "Mark Twain",
+    "category": "Leadership"
+  },
+  {
+    "id": 68,
+    "quote": "Be the change that you wish to see in the world.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 69,
+    "quote": "An eye for an eye will only make the whole world blind.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 70,
+    "quote": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 71,
+    "quote": "The supreme art of war is to subdue the enemy without fighting.",
+    "author": "Sun Tzu",
+    "category": "Leadership"
+  },
+  {
+    "id": 72,
+    "quote": "In the midst of chaos, there is also opportunity.",
+    "author": "Sun Tzu",
+    "category": "Leadership"
+  },
+  {
+    "id": 73,
+    "quote": "The best way to predict your future is to create it.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 74,
+    "quote": "If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
+    "author": "John Quincy Adams",
+    "category": "Leadership"
+  },
+  {
+    "id": 75,
+    "quote": "Do not follow where the path may lead. Go instead where there is no path and leave a trail.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Leadership"
+  },
+  {
+    "id": 76,
+    "quote": "Any sufficiently advanced technology is indistinguishable from magic.",
+    "author": "Arthur C. Clarke",
+    "category": "Technology"
+  },
+  {
+    "id": 77,
+    "quote": "The computer was born to solve problems that did not exist before.",
+    "author": "Bill Gates",
+    "category": "Technology"
+  },
+  {
+    "id": 78,
+    "quote": "Technology is best when it brings people together.",
+    "author": "Matt Mullenweg",
+    "category": "Technology"
+  },
+  {
+    "id": 79,
+    "quote": "It is not that we use technology, we live technology.",
+    "author": "Godfrey Reggio",
+    "category": "Technology"
+  },
+  {
+    "id": 80,
+    "quote": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs",
+    "category": "Technology"
+  },
+  {
+    "id": 81,
+    "quote": "Simplicity is the ultimate sophistication.",
+    "author": "Leonardo da Vinci",
+    "category": "Technology"
+  },
+  {
+    "id": 82,
+    "quote": "First, solve the problem. Then, write the code.",
+    "author": "John Johnson",
+    "category": "Technology"
+  },
+  {
+    "id": 83,
+    "quote": "Talk is cheap. Show me the code.",
+    "author": "Linus Torvalds",
+    "category": "Technology"
+  },
+  {
+    "id": 84,
+    "quote": "Programs must be written for people to read, and only incidentally for machines to execute.",
+    "author": "Harold Abelson",
+    "category": "Technology"
+  },
+  {
+    "id": 85,
+    "quote": "The Web does not just connect machines, it connects people.",
+    "author": "Tim Berners-Lee",
+    "category": "Technology"
+  },
+  {
+    "id": 86,
+    "quote": "Information is the resolution of uncertainty.",
+    "author": "Claude Shannon",
+    "category": "Technology"
+  },
+  {
+    "id": 87,
+    "quote": "Innovation distinguishes between a leader and a follower.",
+    "author": "Steve Jobs",
+    "category": "Technology"
+  },
+  {
+    "id": 88,
+    "quote": "The advance of technology is based on making it fit in so that you do not really even notice it.",
+    "author": "Bill Gates",
+    "category": "Technology"
+  },
+  {
+    "id": 89,
+    "quote": "A day without sunshine is like, you know, night.",
+    "author": "Steve Martin",
+    "category": "Humor"
+  },
+  {
+    "id": 90,
+    "quote": "I am so clever that sometimes I don\u2019t understand a single word of what I am saying.",
+    "author": "Oscar Wilde",
+    "category": "Humor"
+  },
+  {
+    "id": 91,
+    "quote": "Be yourself; everyone else is already taken.",
+    "author": "Oscar Wilde",
+    "category": "Humor"
+  },
+  {
+    "id": 92,
+    "quote": "I can resist everything except temptation.",
+    "author": "Oscar Wilde",
+    "category": "Humor"
+  },
+  {
+    "id": 93,
+    "quote": "Always forgive your enemies; nothing annoys them so much.",
+    "author": "Oscar Wilde",
+    "category": "Humor"
+  },
+  {
+    "id": 94,
+    "quote": "Behind every great man is a woman rolling her eyes.",
+    "author": "Jim Carrey",
+    "category": "Humor"
+  },
+  {
+    "id": 95,
+    "quote": "The only thing worse than being talked about is not being talked about.",
+    "author": "Oscar Wilde",
+    "category": "Humor"
+  },
+  {
+    "id": 96,
+    "quote": "Common sense is like deodorant. The people who need it most never use it.",
+    "author": "Anonymous",
+    "category": "Humor"
+  },
+  {
+    "id": 97,
+    "quote": "If you think you are too small to make a difference, try sleeping with a mosquito.",
+    "author": "Dalai Lama",
+    "category": "Humor"
+  },
+  {
+    "id": 98,
+    "quote": "Better to remain silent and be thought a fool than to speak out and remove all doubt.",
+    "author": "Abraham Lincoln",
+    "category": "Wisdom"
+  },
+  {
+    "id": 99,
+    "quote": "Knowledge speaks, but wisdom listens.",
+    "author": "Jimi Hendrix",
+    "category": "Wisdom"
+  },
+  {
+    "id": 100,
+    "quote": "Knowing yourself is the beginning of all wisdom.",
+    "author": "Aristotle",
+    "category": "Wisdom"
+  }
+]
